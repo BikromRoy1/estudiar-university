@@ -1,0 +1,21 @@
+.Footer-section-background {
+  background-image: url("../../Assets/Images/Footer/educator-img12.jpg");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.footer-background-overlay {
+  position: absolute;
+  background-color: #41246D;
+  opacity: 0.98;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
